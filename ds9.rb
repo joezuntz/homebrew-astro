@@ -2,6 +2,7 @@ require 'formula'
 
 class Ds9 < Formula
   homepage 'http://hea-www.harvard.edu/RD/ds9/'
+  version '7.3b5'
   if MacOS.version == :snow_leopard
     url 'http://ds9.si.edu/download/darwinsnowleopard/ds9.darwinsnowleopard.7.3b5.tar.gz'
     sha1 'e96d00d18c739407442a09ee931dadbe1dd435ca'
