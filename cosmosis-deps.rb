@@ -3,7 +3,6 @@ require 'formula'
 class CosmosisDeps < Formula
   url "http://bitbucket.org/joezuntz/cosmosis/downloads/cosmosis-installer.tar.gz"
   homepage "http://bitbucket.org/cosmosis"
-  sha1 "1234567890ABCDEF1234567890ABCDEF"
 
   depends_on "git"
   depends_on "gcc"
