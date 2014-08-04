@@ -7,7 +7,7 @@ class CosmosisDeps < Formula
 
   depends_on "git"
   depends_on "gcc48"
-  depend_on "python"
+  depends_on "python"
   depends_on "cfitsio"
   depends_on "gsl"
   depends_on "fftw"
