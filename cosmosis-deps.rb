@@ -13,9 +13,9 @@ class CosmosisDeps < Formula
   depends_on "open-mpi"
   depends_on "libpng"
   depends_on "freetype"  
-  depends_on "numpy" => :python
-  depends_on "scipy" => :python
-  depends_on "matplotlib" => :python
+  depends_on "numpy"
+  depends_on "scipy"
+  depends_on "matplotlib"
   #depends_on "pyyaml" => :python
 
   def install
