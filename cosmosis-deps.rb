@@ -11,7 +11,7 @@ class CosmosisDeps < Formula
   depends_on "cfitsio"
   depends_on "gsl"
   depends_on "fftw"
-  depends_on "mpich2"
+  depends_on "open-mpi"
   depends_on "libpng"
   depends_on "freetype"  
   depends_on :python => "numpy"
