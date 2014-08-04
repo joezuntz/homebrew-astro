@@ -16,7 +16,7 @@ class CosmosisDeps < Formula
   depends_on "numpy" => :python
   depends_on "scipy" => :python
   depends_on "matplotlib" => :python
-  depends_on "pyyaml" => :python
+  #depends_on "pyyaml" => :python
 
   def install
   	bin.install("cosmosis-installer")
