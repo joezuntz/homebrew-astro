@@ -6,7 +6,7 @@ class CosmosisDeps < Formula
   sha1 "1234567890ABCDEF1234567890ABCDEF"
 
   depends_on "git"
-  depends_on "gcc48"
+  depends_on "gcc"
   depends_on "python"
   depends_on "cfitsio"
   depends_on "gsl"
